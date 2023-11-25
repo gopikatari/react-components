@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './menu.css';
 import TextTitle from '../text-title/TextTitle';
 import menuData from '../../data/menu-data';
-import MenuItem from './menuItem';
+import MenuItem from './MenuItem.jsx';
 import menu from '../../data/menu-data';
-import { MenuCard } from './MenuCard';
+import { MenuCard } from './MenuCard.jsx';
 
 const MenuComp = () => {
   const className = {

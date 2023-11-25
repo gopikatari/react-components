@@ -13,7 +13,7 @@ import Carousel from './common/carousel/Carousel.jsx';
 import GroceryBud from './examples/groceryBud/GroceryBud.jsx';
 import Navbar from './common/navbar/Navbar.jsx';
 import MenuComp from './common/menu/MenuComp.jsx';
-// import CarouselTest from './examples/slideEx/carouselTest.jsx';
+import CarouselTest from './examples/slideEx/CarouselTest.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='main'>
@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Accordion data={accData} />
         <Tab />
         <Carousel />
-        {/* <CarouselTest /> */}
+        <CarouselTest />
         <GroceryBud />
       </AppContext>
     </div>
