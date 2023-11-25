@@ -18,7 +18,6 @@ import Navbar from './common/navbar/Navbar.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='main'>
     <Navbar />
-
     <div className='container'>
       <AppContext>
         <Accordion data={accData} />
