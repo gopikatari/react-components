@@ -8,7 +8,7 @@ import AppContext from '../context.jsx';
 import Reviews from './reviews/Review.jsx';
 import Accordion from './common/accordion/Accordion.jsx';
 import accData from './data/accordion-data.js';
-import Menu from './common/menu/menu.jsx';
+// import Menu from './common/menu/menu.jsx';
 import Tab from './common/tabs/Tab.jsx';
 import Carousel from './common/carousel/Carousel.jsx';
 // import CarouselTest from './examples/slideEx/carouselTest.jsx';
