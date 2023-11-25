@@ -1,0 +1,40 @@
+.accordion {
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background: var(--white);
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-shadow: var(--shadow-1);
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header h4 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.accordion-body {
+  color: var(--grey-500);
+  font-size: 0.9rem;
+}
+.accodion-body-wrapper {
+  overflow: hidden;
+  transition: all 0.4s linear;
+}
+
+.accordion-btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 5s;
+  transform: rotate(-180deg);
+}
+.accordion-btn:active {
+  background: transparent;
+}

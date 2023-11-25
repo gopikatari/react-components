@@ -1,0 +1,79 @@
+.text-center {
+  text-align: center;
+}
+
+.text-underline {
+  width: 4rem;
+  margin: 0 auto;
+  height: 0.35rem;
+  background-color: var(--red-dark);
+  text-transform: capitalize;
+}
+.h-4 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.menu-item {
+  margin-right: 0.4rem;
+}
+.menu-item__container {
+  text-align: center;
+}
+.menu-img {
+  width: 100%;
+  object-fit: cover;
+  height: 10rem;
+  border-top-right-radius: 0.2rem;
+  border-top-left-radius: 0.2rem;
+}
+.menu-card {
+  max-width: 85vw;
+  margin: 1.3rem auto;
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+  transition: all 0.3s linear;
+  border-radius: 0.2rem;
+}
+.menu-card:hover {
+  box-shadow: var(--shadow-3);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 0 0.4rem;
+}
+.card-heading {
+  margin: 0.8rem 0;
+}
+.card-price {
+  padding: 0 0.4rem;
+  color: var(--white);
+  border-radius: 10%;
+  background-color: var(--red-dark);
+  font-size: 0.8rem;
+}
+.card-info {
+  padding: 0 0.4rem 1rem 0.4rem;
+  color: var(--grey-500);
+  font-size: 0.8rem;
+}
+.active-menu {
+  background-color: var(--green-dark);
+}
+
+@media screen and (min-width: 700px) {
+  .menu-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .menu-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
