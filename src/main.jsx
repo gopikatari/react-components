@@ -20,12 +20,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <div className='container'>
       <AppContext>
+        <Carousel />
+        <Tab />
+        <ControlledInputs />
+        <Reviews />
+        <UseRefEx />
         <MenuComp />
         <Accordion data={accData} />
-        <Tab />
-        <Carousel />
         <CarouselTest />
         <GroceryBud />
+        <App />
       </AppContext>
     </div>
   </div>
