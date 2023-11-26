@@ -1,0 +1,43 @@
+.modal-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(125, 130, 136, 0.95);
+  z-index: 81;
+  border-radius: 0.25rem;
+  box-shadow: var(--shadow-3);
+}
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 30vw;
+  min-height: 20vw;
+  background-color: var(--white);
+  z-index: 100;
+  transform: translate(-50%, -50%) scale(0);
+  animation: show 1s forwards ease-in-out;
+}
+.modal-content {
+  display: flex;
+}
+.modal-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.6rem;
+  background: transparent;
+  border: transparent;
+  color: var(--red-dark);
+  cursor: pointer;
+}
+
+@keyframes show {
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
