@@ -1,10 +1,10 @@
 .carousel-container {
-  width: 85vw;
-  max-width: 800px;
+  width: 95vw;
+  max-width: 900px;
   margin: 0 auto;
   margin-top: 10rem;
   position: relative;
-  height: 450px;
+  height: 300px;
   overflow: hidden;
 }
 .slide {

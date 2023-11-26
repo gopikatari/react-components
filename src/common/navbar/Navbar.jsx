@@ -25,7 +25,7 @@ const Navbar = () => {
     <section className='Navbar'>
       <div className='navbar-center'>
         <header className='navbar-header'>
-          <h2 className='navbar-brand'>GOPI Nath Reddy</h2>
+          <h2 className='navbar-brand'>Gopi Katari</h2>
           <button onClick={handleToggle} className='navbar-toggle'>
             <FaBars />
           </button>
