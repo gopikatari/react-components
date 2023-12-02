@@ -29,7 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Accordion data={accData} />
         <CarouselTest />
         <GroceryBud />
-        <App />
+        {/* <App /> */}
       </AppContext>
     </div>
   </div>
